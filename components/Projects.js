@@ -1,9 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
 import countrymaniaImg from "../public/assets/projects/Country Mania.jpg";
 import bestbuyImg from "../public/assets/projects/BestBuy.jpg";
 import todoistImg from "../public/assets/projects/ToDoist.jpg";
-import ProjectItem from "./projectItem";
+import ProjectItem from "./ProjectItem";
 
 function Projects() {
   return (
@@ -14,21 +12,21 @@ function Projects() {
         </p>
         <h2 className="py-4 ">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <projectItem
+          <ProjectItem
             title="Country Mania"
             backgroundImg={countrymaniaImg}
             projectUrl="/countrymania"
             tech="NextJS"
           />
 
-          <projectItem
+          <ProjectItem
             title="BestBuy"
             backgroundImg={bestbuyImg}
             projectUrl="/bestbuy"
             tech="Django"
           />
 
-          <projectItem
+          <ProjectItem
             title="ToDoist"
             backgroundImg={todoistImg}
             projectUrl="/todoist"
