@@ -41,7 +41,7 @@ function About() {
         <div className="pt-4 w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <div className="rounded-xl">
             <Image
-              src="/../public/assets/about.jpg"
+              src="../public/assets/about.jpg"
               alt="/"
               width="1000"
               height="1500"
