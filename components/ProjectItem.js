@@ -1,7 +1,7 @@
-import Image from "next/Image";
+import Image from "next/image";
 import Link from "next/link";
 
-function Projectitem({ title, backgroundImg, projectUrl, tech }) {
+function ProjectItem({ title, backgroundImg, projectUrl, tech }) {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
       <Image
@@ -24,4 +24,4 @@ function Projectitem({ title, backgroundImg, projectUrl, tech }) {
   );
 }
 
-export default Projectitem;
+export default ProjectItem;
