@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import Link from "next/link";
 import countrymaniaImg from "../public/assets/projects/Country Mania.jpg";
 import bestbuyImg from "../public/assets/projects/BestBuy.jpg";
